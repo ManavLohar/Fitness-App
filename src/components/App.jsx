@@ -4,6 +4,7 @@ import "../Style.css";
 import Hero from "./Hero/Hero";
 import Programs from "./Programs/Programs";
 import Reasons from "./Reasons/Reasons";
+import Plans from "./Plans/Plans";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Programs />
       <Reasons />
+      <Plans />
     </div>
   );
 }
