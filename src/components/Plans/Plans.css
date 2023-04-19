@@ -18,9 +18,9 @@
     fill: white;
 }
 
-/* .plans>:nth-child(2)>button{
-    color: var(--planCard);
-} */
+.plans>:nth-child(2)>button{
+    color: orange;
+}
 
 .plan{
     display: flex;
@@ -73,3 +73,25 @@
     width: 1rem;
 }
 
+.plans-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0;
+}
+
+.plans-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0;
+}
+
+@media screen and (max-width: 768px){
+    .plans{
+        flex-direction: column;
+    }
+    .plans>:nth-child(2){
+        transform: none;
+    }
+}
